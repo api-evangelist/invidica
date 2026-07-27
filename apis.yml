@@ -1,7 +1,24 @@
 aid: invidica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invidica.png
 name: Invidica
-description: Invidica is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Invidica is an Oakland-based B2B wholesale ecommerce marketplace (founded 2019) that upgrades
+  the wholesaler-retailer relationship for the reseller economy. It pairs a marketplace where resellers order
+  wholesale products directly from brands with AI-driven analytics that combine Amazon sales data to predict
+  an item's profitability, sales velocity, and competition, helping small sellers find the most profitable
+  products to resell. Founded by CEO Sean Bovell and backed by 500 Global and 1517 Fund (pre-seed, 2021). The
+  company appears to be pivoting under the Reroute Retail brand (rerouteretail.com, "launching soon"); its
+  original invidica.com domain no longer resolves. No public API or developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/invidica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Ecommerce
+- Marketplace
+- Wholesale
+- Retail
+- Reseller
+- Analytics
+- B2B
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/invidica-domain-security.yml
 - type: Website
   url: https://rerouteretail.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/invidica
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/invidica
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
