@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/invidica/integrations
+- https://n8n.io/integrations/invidica/
+- https://composio.dev/toolkits/invidica
+- https://monid.ai/tools/invidica
+checked:
+- https://composio.dev/toolkits/invidica
+- https://monid.ai/tools/invidica
+- https://n8n.io/integrations/invidica/
+- https://zapier.com/apps/invidica/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
